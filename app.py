@@ -5,11 +5,11 @@ from streamlit_option_menu import option_menu
 
 
 diabetes_model = pickle.load(
-    open('E:\ML Bootcamp\Disease\diabetes_model.pkl', 'rb'))
+    open('Disease\diabetes_model.pkl', 'rb'))
 heart_disease_model = pickle.load(
-    open('E:\ML Bootcamp\Disease\heart_model.pkl', 'rb'))
+    open('Disease\heart_model.pkl', 'rb'))
 parkinsons_model = pickle.load(
-    open('E:\ML Bootcamp\Disease\parkinsons_model.pkl', 'rb'))
+    open('Disease\parkinsons_model.pkl', 'rb'))
 
 
 # sidebar for navigation
